@@ -1,7 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { api } from "../../services/api";
 import { CartContext } from "../../contexts/CartContent";
-import { Link } from "react-router";
 
 export default function Home() {
   interface ProductsProps {
